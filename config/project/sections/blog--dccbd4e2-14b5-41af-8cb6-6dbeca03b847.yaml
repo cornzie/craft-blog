@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: blog
+name: Blog
+propagationMethod: all
+siteSettings:
+  14d8e410-b64b-4a2d-93de-c360d232de1d:
+    enabledByDefault: true
+    hasUrls: true
+    template: blog_entry
+    uriFormat: 'blog/{slug}'
+type: channel
